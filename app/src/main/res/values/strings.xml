@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Jobs</string>
+    <string name="contrasena_hint">Contraseña</string>
+    <string name="usuario_hint">Usuario</string>
+    <string name="ingresar_label">Ingresar</string>
+    <string name="ingresar_con_facebook_label">Ingresar con facebook</string>
+    <string name="o_accent_label">ó</string>
+    <string name="lost_password_label">Perdiste tu Contraseña?</string>
+    <string name="registry_label">Registrarme</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_principal_lbl">Principal</string>
+    <string name="menu_mis_publicaciones_lbl">Mis Publicaciones</string>
+    <string name="menu_empleos_lbl">Empleos</string>
+    <string name="menu_mis_mensajes_lbl">Mensajes</string>
+    <string name="menu_mi_perfil_lbl">Mi perfil</string>
+    <string name="menu_ayuda_y_conf_lbl">Ayuda y Configuración</string>
+    <string name="menu_mis_preferencias_lbl">Preferencias</string>
+    <string name="menu_acerca_de_mi_lbl">Acerca de</string>
+    <string name="menu_salir_lbl">Salir</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_results_txt">No hay Resultados.</string>
+    <string name="title_activity_location">Ubicacion Aproximada</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_principal"
+            android:title="Gasolineras" />
+        <item
+            android:id="@+id/nav_mis_publicaciones"
+            android:icon="@drawable/ic_mis_publicaciones"
+            android:title="@string/menu_mis_publicaciones_lbl" />
+        <item
+            android:id="@+id/nav_mensajes"
+            android:icon="@drawable/ic_mensajes"
+            android:title="@string/menu_mis_mensajes_lbl" />
+        <item
+            android:id="@+id/nav_mi_perfil"
+            android:icon="@drawable/ic_mi_perfil"
+            android:title="@string/menu_mi_perfil_lbl" />
+    </group>
+    <item android:title="@string/menu_ayuda_y_conf_lbl">
+        <menu>
+            <item
+                android:id="@+id/nav_mis_herramientas"
+                android:icon="@drawable/ic_preferencias"
+                android:title="@string/menu_mis_preferencias_lbl" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_acerca_de_mi"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_acerca_de_mi_lbl" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_salir"
+            android:title="@string/menu_salir_lbl" />
+    </group>
+</menu>

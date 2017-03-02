@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="car_wash_images">
+        <item>@drawable/carwash_one</item>
+        <item>@drawable/carwash_two</item>
+    </integer-array>
+
+    <integer-array name="ama_casa_images">
+        <item>@drawable/amacasa_one</item>
+        <item>@drawable/amacasa_two</item>
+        <item>@drawable/amacasa_three</item>
+    </integer-array>
+
+    <integer-array name="jardinero_images">
+        <item>@drawable/jardinero_one</item>
+        <item>@drawable/jardinero_two</item>
+        <item>@drawable/jardinero_three</item>
+    </integer-array>
+
+</resources>

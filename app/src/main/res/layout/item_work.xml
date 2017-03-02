@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/listWork_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/listWork_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listWork_title"
+        android:layout_alignStart="@+id/listWork_title"
+        android:layout_below="@+id/listWork_title"
+        android:text="Prados del Rey - 87 vistas"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/listWork_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listWork_thumb"
+        android:layout_alignStart="@+id/listWork_thumb"
+        android:layout_below="@+id/listWork_thumb"
+        android:text="Ama de Casa Santa Catarina"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/listWork_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/listWork_thumb"
+        android:layout_alignRight="@+id/listWork_thumb"
+        android:layout_alignTop="@+id/listWork_thumb"
+        android:layout_marginTop="11dp"
+        android:background="#4000"
+        android:padding="5sp"
+        android:text="$120.00"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/listWork_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/listWork_title"
+        android:layout_alignEnd="@+id/listWork_thumb"
+        android:layout_alignRight="@+id/listWork_thumb"
+        android:text="Hace 3 hrs"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

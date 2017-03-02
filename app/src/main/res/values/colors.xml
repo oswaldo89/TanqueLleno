@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2ecc71</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="rojo">#FE2E2E</color>
+
+
+    <color name="color_canteen">#fdfdfd</color>
+    <color name="color_dark_canteen">#ebeef0</color>
+
+</resources>
